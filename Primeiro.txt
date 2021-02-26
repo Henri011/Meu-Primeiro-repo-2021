@@ -1,10 +1,18 @@
 Hello world! 
 
 
+aula de git hub
 
-Sou Lindo
 
 
+doidera 
+
+chucrute 
+html 
+css
+js
+php
+python
 
 
 eu sou a linha 10
