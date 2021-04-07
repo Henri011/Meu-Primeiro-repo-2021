@@ -1,0 +1,170 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 86%;
+    margin: auto;
+}
+
+.header{
+    background-color: rgb(48, 209, 214);
+    color: white;
+    /* height: 100px; */
+    /* overflow coloca a altura do header automatico de acordo com os itens que estão dentro do elemento  */
+    overflow: auto; 
+    border-bottom: 3px solid rgb(240, 35, 178);
+    padding: 28px 0 12px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li :hover{
+  color: rgb(48, 209, 214);
+  transition: 50ms;
+  border-radius: 5px;
+  background-color:  rgb(48, 209, 214);
+  padding: 3px 7px;
+}
+
+.titulo{
+    margin: 0;
+    float: left;
+  
+}
+
+.navbar{
+    float: right;
+    list-style: none;
+}
+
+li{
+     cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.destaque{
+    color:rgb(240, 90, 35)
+}
+/* banner */
+
+.banner{
+   text-align: center;
+   background-image: url(imgs/banner-fundo-big.jpeg);
+   background-color: #b1b1b1;
+   background-repeat: no-repeat;
+   height: 300px;
+   background-size: cover;
+}
+.banner h1 {
+    margin: 0;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+/*Saber mais*/
+.saiba-mais button{
+border: 0;
+background-color:orangered;
+color: white;
+text-transform: uppercase;
+padding: 10px 30px;
+margin-top:30px ;
+cursor: pointer;
+}
+.saiba-mais{
+    text-align: center;
+    background-color: rgb(48, 209, 214);
+    height: 90px;
+}
+/*missão, visão, valores*/
+.box img{
+    height: 100px;
+    
+}
+.box{
+    overflow: auto;
+}
+
+.box-item{
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 3%
+}
+/*footer*/
+.footer{
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+    background-color:  rgb(48, 209, 214);
+}
+
+.footer h4{
+    text-transform: uppercase;
+    color: white; 
+}
+
+
+/* pagina Sobre */
+
+.sobreNos {
+    overflow: auto;
+}
+
+.sobreImg {
+    background-color: black;
+}
+.conteudo{
+    height: 500px;
+    width: 50%;
+    float: left;  
+    text-align: center;  
+}
+
+.imgSobre{
+    height:500px ;
+    width: 50%;
+    float:left;
+
+}
+
+.conteudo p {
+    margin: 30px;
+}
+
+
+.imgSobre img{
+    background-color: darkgray;
+    margin:50px 50px 50px 50px;
+    height: 340px;
+}
+
+.conteudo h2 {
+  margin-top: 100px;
+  
+}
+
+.preservar {
+    text-align: center;
+    margin-top: 100px;
+    width: 50%;
+    float: left;
+    padding-bottom: 140px;
+}
+.imgPreservar {
+    
+     height: 100px;
+    float: left;
+    width: 20px;
+    padding-bottom: 100px;
+}
